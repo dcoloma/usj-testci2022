@@ -3,7 +3,7 @@
  * triangle.
  */
 function isValidPlate(plate) {
-  var re = /(\d\d\d\d[CDFGHJKLMNPRSTVWXYZ][BCDFGHJKLMNPRSTVWXYZ][BCDFGHJKLMNPRSTVWXYZ])/i;
+  var re = /(\d\d\d\d[BCDFGHJKLMNPRSTVWXYZ][BCDFGHJKLMNPRSTVWXYZ][BCDFGHJKLMNPRSTVWXYZ])/i;
   if(plate.match(re) != null) {
     return true;
   } else {
